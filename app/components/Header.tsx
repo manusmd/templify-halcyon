@@ -19,7 +19,7 @@ export default function Header({
 
   return (
     <>
-      <header className="h-header">
+      <header className={`h-header ${menuOpen ? "h-header-onmenu" : ""}`}>
         <div className="h-header-inner">
           <button className="h-brand" onClick={() => onGo("home")} aria-label="Halcyon — home">
             <span className="h-wordmark">{content.brand}</span>

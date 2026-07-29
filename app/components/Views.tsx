@@ -345,7 +345,7 @@ export function ExperienceView() {
                 {p}
               </p>
             ))}
-            <div className="h-menu">
+            <div className="h-dining-menu">
               {e.dining.menu.map((m) => (
                 <div key={m.no} className="h-menu-row">
                   <span className="h-mono h-accent h-menu-no">{m.no}</span>

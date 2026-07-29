@@ -315,6 +315,23 @@ img {
   justify-content: space-between;
   gap: 24px;
 }
+/* While the mobile menu is open, blend the header into the olive overlay
+   instead of showing a limestone bar over it. */
+.h-header-onmenu {
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-bottom-color: transparent;
+}
+.h-header-onmenu .h-wordmark {
+  color: var(--cream);
+}
+.h-header-onmenu .h-folio {
+  color: rgba(239, 231, 215, 0.55);
+}
+.h-header-onmenu .h-burger span {
+  background: var(--cream);
+}
 .h-brand {
   display: flex;
   align-items: baseline;
@@ -1059,7 +1076,7 @@ img {
   margin: 0 0 18px;
   max-width: 54ch;
 }
-.h-menu {
+.h-dining-menu {
   margin-top: 36px;
   border-top: 1px solid rgba(239, 231, 215, 0.18);
   padding-top: 24px;
