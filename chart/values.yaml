@@ -2,17 +2,12 @@
 # else here is set once. See projects-infrastructure for the platform.
 image:
   repository: ghcr.io/manusmd/templify-halcyon
-  tag: latest
+  tag: f26ed67a7543170eb2fec3b12b33870f787d4088
   pullPolicy: IfNotPresent
-
 replicas: 1
-
 port: 3000
-
 host: halcyon.projects.manu-web.de
-
 certResolver: letsencrypt
-
 resources:
   requests:
     cpu: 50m
