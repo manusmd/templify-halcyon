@@ -1446,6 +1446,18 @@ img {
   text-transform: uppercase;
   color: rgba(239, 231, 215, 0.45);
 }
+.h-footer-legal {
+  display: flex;
+  gap: 12px 22px;
+  flex-wrap: wrap;
+}
+.h-footer-legal a {
+  color: rgba(239, 231, 215, 0.45);
+  transition: color 0.3s ease;
+}
+.h-footer-legal a:hover {
+  color: var(--accent);
+}
 
 /* ═══════════ RESPONSIVE ═══════════ */
 @media (max-width: 900px) {

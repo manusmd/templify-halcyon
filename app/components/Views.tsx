@@ -546,6 +546,22 @@ export function Footer({ onGo }: { onGo: (k: PageKey) => void }) {
           {f.bottom.map((b) => (
             <span key={b}>{b}</span>
           ))}
+          <span className="h-footer-legal">
+            <a
+              href="https://templify.projects.manu-web.de/impressum"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Legal Notice
+            </a>
+            <a
+              href="https://templify.projects.manu-web.de/datenschutz"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Privacy
+            </a>
+          </span>
         </div>
       </div>
     </footer>
